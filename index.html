@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My DevOps Intern Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; text-align: center; padding-top: 80px; }
+        .card { background: white; display: inline-block; padding: 40px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+        h1 { color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Your Full Name</h1>
+        <p><b>College:</b> Your College Name</p>
+        <p><b>Branch:</b> B.Tech CSE (or your branch)</p>
+        <p><b>Email:</b> your.email@example.com</p>
+        <p><b>Date:</b> <span id="date"></span></p>
+    </div>
+    <script>
+        document.getElementById("date").innerText = new Date().toDateString();
+    </script>
+</body>
+</html>
