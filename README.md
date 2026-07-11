@@ -24,3 +24,7 @@ sudo systemctl restart nginx
 
 ## Public IP
 http://3.110.46.230
+## Bonus Task
+Created `restart_nginx.sh` — a shell script that restarts Nginx and displays its status.
+Run with: `./restart_nginx.sh`## Bonus Task
+
